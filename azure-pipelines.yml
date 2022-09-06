@@ -16,7 +16,8 @@ steps:
 - script: |
     - echo "Before script section"
 # Install necessary tools
-    - apt-get update && apt-get install -y
+    - apt-get update -y
+    - apt-get install -y
     - apt-get install net-tools -y
     - apt update -y
     - apt-get install xdotool  -y
